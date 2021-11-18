@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"
+    tools:context=".tela1">
+
+    <ImageButton
+        android:id="@+id/imgBtnAjuda1"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#0003A9F4"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAjuda2"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#0003A9F4"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAjuda3"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#0003A9F4"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAjuda4"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#0003A9F4"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <EditText
+        android:id="@+id/edtLucroLiquido"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira o lucro líquido"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edtAcoesEmitidas"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira o número de ações emitidas"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/edtDividendos"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="345dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira o número de dividendos"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edtPrecoAcao"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira o preço de mercado da ação"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="172dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="#098A1E"
+        android:text="CALCULAR"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLPAResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="171dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtPayoutResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginBottom="170dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtDividendResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginBottom="170dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtPLResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginBottom="131dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtDividend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="273dp"
+        android:text="Dividend Yield"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="164dp"
+        android:text="P/L"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLPA"
+        android:layout_width="74dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="135dp"
+        android:text="LPA"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="306dp"
+        android:text="PAYOUT"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAzul1"
+        android:layout_width="413dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#098A1E" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="@android:drawable/screen_background_light"
+        android:backgroundTint="@android:color/background_light"
+        android:text="INSIRA OS VALORES"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-4dp"
+        android:backgroundTint="#098A1E"
+        android:tint="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>
